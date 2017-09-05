@@ -20,7 +20,7 @@ For this project you will need to implement a back-end application from scratch 
 * You're not going to need to worry about designing any Schema until you get to the Extra credit so don't worry about that right away. 
 * You will need to think about the type of data each client should have in the vet's office. Because this is a RESTful API you'll need to have at least one of each of these, POST, GET, PUT and DELETE endpoint. After that you can get as creative as you'd like. 
 #### HINT - Your data could be thought of like this.
-* i.e. Each client needs a name, some sort of unique ID (because Mongo isn't doing this for you until the extra credit, you'll have to think about how to implement this yourself), a species, some sort of 'visit' timestamp, and an owner with a name, address, phone number and optional email. Ask yourself, what does all of this information need to look like.
+* i.e. Each client needs a `name`, some sort of `unique ID` (because Mongo isn't doing this for you until the extra credit, you'll have to think about how to implement this yourself), a `species`, some sort of `'visit' timestamp`, and an `owner` with a `name`, `address`, `phone` `number` and `optional email`. Ask yourself, what does all of this information need to look like.
   * [Tips and tricks for writing a Markdown File](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
 ### Writing tests for your API End points
