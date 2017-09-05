@@ -24,10 +24,10 @@ For this project you will need to implement a back-end application from scratch 
   * [Tips and tricks for writing a Markdown File](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
 ### Writing tests for your API End points
-* Write your tests to fail first. Now that you have a specification designed for your API you can start to write your tests. Create a directory called
+* Write your tests to fail first. Now that you have a specification designed for your API you can start to write your tests. Create a directory called tests.
 
 ### Crafting your API
 
 ### Extra Credit
-* Add a data persistence layer like mongodb. You can work backwards from your specification and build out a Schema for your clients and their owners.
-* You'll want to create your data directory in order to save your data to your local project as opposed to saving it to your hard drive.
+* Add a data persistence layer mongodb. You can work backwards from your specification and build out a Schema for your `clients` and their `owners`.
+* You'll want to create your `data` directory in order to save your data to your local project as opposed to saving it to your hard drive.
