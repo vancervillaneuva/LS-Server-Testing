@@ -12,7 +12,7 @@ Up to this point you've learned about client side testing, but now we're going t
 - Run `npm install --save-dev mocha chai chai-http`.
 
 ## Instructions
-For this project you will need to implement a back-end application from scratch for a Vetrinarian's Office. Imagine you're tasked by your local vet to build a Client Management System for all of the animals that come in and out of his/her office. Now that you have the skills to do this, and you know that it is going to be project that someone else may have to maintain later on, you're going to really have to think about how your data is going to look and how your app is going to function. The way to do this is to thoroughly plan out each part of your application.
+For this project you will need to implement a back-end application from scratch for a Veterinarian's Office. Imagine you're tasked by your local vet to build a Client Management System for all of the animals that come in and out of his/her office. Now that you have the skills to do this, and you know that it is going to be project that someone else may have to maintain later on, you're going to really have to think about how your data is going to look and how your app is going to function. The way to do this is to thoroughly plan out each part of your application.
 
 ### API Design
 * We want you to take a step back and actually come up with an API design specification for your application. 
