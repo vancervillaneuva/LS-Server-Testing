@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/test');
 
-const Food = require('./patient');
-const server = require('./server');
+const Patient = require('../patient');
+const { server } = require('../server');
 const chai = require('chai');
 const { expect } = chai;
 const chaiHTTP = require('chai-http');
@@ -52,6 +52,7 @@ describe('/patient', () => {
          });
 	 });
 
+     // Post
 	 describe('[POST] /patient', () => {
            it('should add a new patient', (done) => {
                const patient = {
@@ -69,24 +70,24 @@ describe('/patient', () => {
           });
 	 });
 
-	 describe('[PUT] /patient/:id', () => {
+	// //  describe('[PUT] /patient/:id', () => {
 
-	 });
+	//  });
 
-	 describe('[DELETE] /patient/:id', () => {
-          it('should delete a patient', (done) => {
-               const patient = {
-                   name: 'Basha',
-               }
-              chai.request(server)
-                .post('/patient')
-                .send(patient)
-                .end((err, res) => {
-                 if (err) return done(err);
-                  expect(res.status).to.equal(201);
-                  expect(res.body.name).to.equal('Basha');
-                  done();
-                });
-          });
-	 });
+	//  describe('[DELETE] /patient/:id', () => {
+    //       it('should delete a patient', (done) => {
+    //            const patient = {
+    //                name: 'Basha',
+    //            }
+    //           chai.request(server)
+    //             .post('/patient')
+    //             .send(patient)
+    //             .end((err, res) => {
+    //              if (err) return done(err);
+    //               expect(res.status).to.equal(201);
+    //               expect(res.body.name).to.equal('Basha');
+    //               done();
+    //             });
+    //       });
+	//  });
 });

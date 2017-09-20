@@ -1,11 +1,11 @@
 const mongoose = require ('mongoose');
-const server = require ('./server');
+//const server = require ('./server');
+const { server } = require('./server.js');
 
-mongoose.connect('mongod://localhost/food', {}, (err) => {
+
+mongoose.connect('mongodb://localhost/patient', {}, (err) => {
 	if (err) return console.log(err);
 	console
 });
 
-server.listen(8080, () => {
-	console.log('server listening to port 8080');
-});
+server.listen(5000);
