@@ -1,0 +1,29 @@
+{
+  "name": "ls-server-testing",
+  "version": "1.0.0",
+  "description": "Topics:   * API Specification Design   * Test Driven Development   * Async Testing with Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/LS-Server-Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/LS-Server-Testing/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/LS-Server-Testing#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "express": "^4.15.4",
+    "mocha": "^3.5.3",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "sinon": "^3.3.0"
+  }
+}
